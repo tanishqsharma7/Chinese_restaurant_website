@@ -55,7 +55,7 @@ body{
     
 }
 
-@media (min-width : 992px){
+@media (min-width : 991px){
     .energy{
         width: 70%;
     }
@@ -71,7 +71,7 @@ body{
     }
 }
 
-@media(min-width : 768px) and (max-width: 991px){
+@media(min-width : 767px) and (max-width: 991px){
     #items{
         display: inline;
     }
