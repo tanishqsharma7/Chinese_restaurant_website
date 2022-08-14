@@ -1,35 +1,59 @@
 html{
     background-color:rgba(255, 255, 255, 0.844);
 }
+
 header h1{
     text-align: center;
-    background-color: rgb(215, 168, 241);
     font-style: bold;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px rgba(223, 178, 118, 0.955);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.title{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 2px;
+    height : 40px;
+    text-align: center;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
+#item1{
+    background-color: rgb(188, 143, 143);
+}
+#item2{
+    background-color: rgb(188,48,44);
+}
+#item3{
+    background-color: rgb(202,195,126);
+}
+
+h4{
+    position: relative;
+    bottom: 11px;
+}
+
 body{
     margin: 0%;
     padding: 0%;
     width: 100%;
 }
 #items , .energy{
+    position: relative;
     display: flex;
 }
 .rice , .pulses , .cereals{
+    position: relative;
     width: 33.33%;
     box-sizing: border-box;
-    box-shadow: 10px 10px 10px rgb(255, 106, 0);
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
+    text-align: left;
+    bottom: 10px;
+    padding: 35px;
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 0px;
     border: 3px solid black;
-    border-radius: 50px;
-    background-color: rgb(235, 245, 121);
+    background-color: gray;
     
 }
 
@@ -39,6 +63,7 @@ body{
     }
     .rice{
         width: 50%;
+        margin-right: 3px;
     } 
     .pulses{
         width: 50%;
@@ -55,7 +80,11 @@ body{
     .energy{
         display: flex;
     }
-    .rice , .pulses{
+    .rice{
+        width: 50%;
+        margin-right: 3px;
+    }
+    .pulses{
         width: 50%;
     }
     .cereals{
@@ -72,7 +101,7 @@ body{
     .energy{
         flex-direction: column;
     }
-    .rice , .pulses , .cereals{
+    .rice , .pulses, .cereals{
         width: 100%;
     }
     
