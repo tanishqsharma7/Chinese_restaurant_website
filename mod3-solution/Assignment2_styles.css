@@ -1,0 +1,125 @@
+#header-nav{
+    background-color: gray;
+
+}
+
+.navbar-header{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#collapsable-nav{
+  background-color: white;
+  width: 100%;
+
+}
+
+.drops{
+  color: #000000;
+  padding-bottom: 100px;
+}
+
+.navbar-toggler{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px solid black;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.navbar-div{
+  border: 3px solid black;
+  padding-bottom: 10px;
+}
+
+
+
+.title{
+    text-align: center;
+    font-style: bold;
+}
+#rice, #pulses , #cereals{
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: gray;
+    padding: 15px;
+    text-align: justify;
+}
+
+.menu-title{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+/**** Large devices only ****/
+@media (min-width: 1200px) {
+    .navbar-toggler-icon {
+      display: none;
+    }
+  
+    .nav-list a {
+      display: none;
+    }
+
+    .navbar-div{
+      border: 0;
+    }
+  
+    .drops {
+      display: none !important;
+    }
+  
+}
+  
+/**** Medium devices only ****/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-toggler{
+      display: none;
+    }
+  
+    .nav-list a {
+      display: none;
+    }
+    .navbar-div{
+      border: 0;
+    }
+  
+    .drops {
+      display: none !important;
+    }
+}
+  
+/**** Small devices only ****/
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-toggler {
+      display: none;
+    }
+  
+    .nav-list a {
+      display: none;
+    }
+    .navbar-div{
+      border: 0;
+    }
+  
+    .drops {
+      display: none !important;
+    }
+}
+  
+/**** Extra small devices only ****/
+@media (max-width: 767px) {
+  
+    #nav-list {
+      margin-top: 0px;
+      width: 100%;
+    }
+
+
+}
